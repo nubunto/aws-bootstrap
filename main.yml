@@ -164,6 +164,7 @@ Resources:
                 ApplicationName: !Ref DeploymentApplication
                 DeploymentGroupName: !Ref StagingDeploymentGroup
               RunOrder: 1
+
   PipelineWebhook:
     Type: AWS::CodePipeline::Webhook
     Properties:
